@@ -6,11 +6,3 @@ exec { 'killmenow':
   returns  => [0, 1],
 }
 
-=======
-# kill process killmenow
-
-exec { 'pkill':
-  command  => 'pkill killmenow',
-  provider => 'shell',
-}
->>>>>>> 74bbcf4ad3935149ea2cb90a6ed4ac966131ceed
