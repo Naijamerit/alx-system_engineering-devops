@@ -1,7 +1,6 @@
 #!/bin/bash
 while [[ true ]]
 do
-<<<<<<< HEAD
     sleep 2
 done
 
